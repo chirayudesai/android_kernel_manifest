@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="https://android-review.googlesource.com/" />
+  <default revision="master"
+           remote="aosp"
+           sync-j="4" />
+
+  <project path="common" name="kernel/common" />
+  <project path="exynos" name="kernel/exynos" />
+  <project path="goldfish" name="kernel/goldfish" />
+  <project path="msm" name="kernel/msm" />
+  <project path="omap" name="kernel/omap" />
+  <project path="samsung" name="kernel/samsung" />
+  <project path="tegra" name="kernel/tegra" />
+
+</manifest>
